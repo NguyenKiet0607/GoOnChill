@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go On Chill</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="shortcut icon" href="assets/img/hehe.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea4197418c.js" crossorigin="anonymous"></script>
+    <script src="assets/js/cart.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="header d-flex  justify-content-md-center ">
+            <a  href="index.html">
+            <div class="figure text-uppercase text-dark bolder mb-0 d-flex  href ">
+                <i class="fas fa-desktop" ></i>
+                <span href="index.html">
+                    go <br>
+                    on <br>
+                    Chill
+                </span>
+            </div>
+            </a>
+            <ul class="d-flex mb-0 ml-3">
+                <li class="text-md-uppercase text-capitalize hidden-md-down"><a class="d-flex flex-column align-items-center d-md-inline-block" href=""><i class="fa fa-laptop"></i>
+                    Loptop</a></li>
+                <li class="text-md-uppercase text-capitalize hidden-md-down "><a class="d-flex flex-column align-items-center d-md-inline-block" href=""><i class="fa fa-desktop"></i>
+                    Màn hình</a></li>    
+                <li class="text-md-uppercase text-capitalize hidden-md-down"><a class="d-flex flex-column align-items-center d-md-inline-block" href=""><i class="fa fa-headphones"></i> 
+                    Tai nghe</a></li>
+                <li class="text-md-uppercase text-capitalize hidden-md-down"><a class="d-flex flex-column align-items-center d-md-inline-block" href=""><i class="fa fa-keyboard"></i>
+                    Bàn phím</a></li>
+                <li class="text-md-uppercase text-capitalize hidden-md-down"><a class="d-flex flex-column align-items-center d-md-inline-block" href=""><i class="fa fa-mouse"></i>
+                    Chuột</a></li>
+                <li class="text-md-uppercase text-capitalize hidden-md-down"><a class="d-flex flex-column align-items-center d-md-inline-block" href="profile.html"><i class="fa fa-address-book"></i>
+                    Liên hệ</a></li>  
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href=""><i class="fa fa-laptop"></i></a></li>
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href=""><i class="fa fa-desktop"></i></a></li>
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href=""><i class="fa fa-headphones"></i></a></li>
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href=""><i class="fa fa-keyboard"></i></a></li>
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href=""><i class="fa fa-mouse"></i></a></li>
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href="profile.html"><i class="fa fa-address-book"></i></a></li>                                  
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href="login.html"><i class="fa fa-user"></i></a></li>    
+                <li class="text-md-uppercase text-capitalize d-lg-none"><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                         
+
+            </ul>
+                   
+           
+            <div class="profile d-none d-lg-flex align-items-center justify-content-end w-50">
+                <a href="login.html" class="text-capitalize px-2" style="color: #888;">ĐĂNG NHẬP</a>
+                <i class="fa fa-user"  style="color: #888;"></i>
+                <a href="sign-up.html" class="text-capitalize px-2" style="color: #888;">ĐĂNG KÝ&nbsp;&nbsp;</a>
+                <a href="cart.html" class="text-capitalize px-2" style="color: #888;"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+
+        </nav>
+
+
+
+    </header>
+    <main>
+
+
+
+        <div class="wrapper-header w-100 ">
+
+            <div class="header-search ">
+
+
+
+                <nav class="search-section d-flex d-md-block">
+    
+                    <div class="hero-logo d-none d-md-block d-md-flex justify-content-center">
+    
+                        <i class="fas fa-desktop"></i>
+    
+                        <p class="text-capitalize">Go <br> On <br> Chill</p>
+    
+                    </div>
+    
+                    <div class="fig-logo d-none d-md-block">
+                        <p><span class="dream">không phải là giấc mơ.</span> <span class="real">đó là hiện thực</span></p>
+                    </div>
+    
+                    <div class="logo-bg d-none d-md-block">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+    
+                    <form class="navbar-form ">
+                        <button class="navbar-toggler toggle d-md-none" type="button" data-toggle="collapse"
+                            data-target="#mynav">
+                            <i class="fas fa-sliders-h"></i>
+                        </button>
+    
+                        <div class="dropdown d-none d-md-inline-block mr-md-1">
+                            <a class="dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown">Tất cả danh mục</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Card đồ họa</a>
+                                <a href="#" class="dropdown-item">Bộ vi xử lý</a>
+                                <a href="#" class="dropdown-item">Nguồn máy tính</a>
+                                <a href="#" class="dropdown-item">Bo mạch chủ</a>
+                                <a href="#" class="dropdown-item">Bộ nhớ ram</a>
+                                <a href="#" class="dropdown-item">Ổ cứng HDD</a>
+                                <a href="#" class="dropdown-item">Ổ cứng SSD</a>
+                                <a href="#" class="dropdown-item">Case máy tính</a>
+                                <a href="#" class="dropdown-item">Màn hình máy tính</a>
+    
+                            </div>
+                        </div>
+    
+                        <input class="mr-md-1" type="text" placeholder="Thực hiện">
+                        <a class="search" href="./index2.html">Tìm kiếm</a>
+
+    
+    
+                    </form>
+    
+                </nav>
+    
+                <div class="filter collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ml-auto navbar-expand mt-1">
+                        <li class="nav-item dropdown text-uppercase mr-3 p-1 d-flex">
+    
+                            <a class="nav-link dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown1"
+                                role="button" data-toggle="dropdown">Tất cả danh mục</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <a href="#" class="dropdown-item">Card đồ họa</a>
+                                <a href="#" class="dropdown-item">Bộ vi xử lý</a>
+                                <a href="#" class="dropdown-item">Nguồn máy tính</a>
+                                <a href="#" class="dropdown-item">Bo mạch chủ</a>
+                                <a href="#" class="dropdown-item">Bộ nhớ ram</a>
+                                <a href="#" class="dropdown-item">Ổ cứng HDD</a>
+                                <a href="#" class="dropdown-item">Ổ cứng SSD</a>
+                                <a href="#" class="dropdown-item">Case máy tính</a>
+                                <a href="#" class="dropdown-item">Màn hình máy tính</a>
+    
+                            </div>
+    
+                        </li>
+    
+                    </ul>
+                  
+                </div>
+            </div>
+    
+        </div>
+    
+
+        <section class="hot-ads">
+            <h1 class="text-uppercase header-ttl">Quảng cáo nổi bật</h1>
+        </section>
+    
+
+        <div class="slider mx-auto">
+
+                <div class="cardo  d-md-flex ">
+                    <img src="./assets/img/hero-thread.jpg" alt="">
+                    <div class="card-body pt-0">
+                    <div class="card-title bolder"><a href="products.html">AMD Ryzen Threadripper 3990X 64-Core 2.9 GHz Socket sTRX4 Desktop Processor</a></div>
+                    <div class="card-text">
+                        32 nhân cung cấp một sức mạnh xử lý đa nhiệm 64 luồng đồng thời đáng kinh ngạc, trong khi 144MB bộ nhớ cache kết hợp và I/O rộng lớn từ nền tảng AMD TRX40 cấp độ người dùng sành điệu hoạt động cùng nhau để đem lại hiệu suất đáng kinh ngạc.
+                        32 nhân và 64 luồng cho công việc sáng tạo nhanh chóng.
+                        Tổng cộng 88 đường PCIe® 4.0 chưa từng có để đáp ứng nhu cầu lớn về GPU và NVMe.
+                        Lên đến 144MB bộ nhớ cache kết hợp giúp truy cập nhanh vào các tập dữ liệu lớn.
+                    </div>
+                    <form>
+                        <button type="button" class="btn btn-buy" onclick="addToCart('AMD Ryzen Threadripper 3990X', 16000000, './assets/img/hero-thread.jpg')">
+                        <i class="fas fa-shopping-cart pr-1"></i>
+                        16,000,000đ Mua hàng
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                <div class="cardo d-md-flex">
+                    <img src="./assets/img/hero-i9.jpg" alt="">
+                    <div class="card-body pt-0">
+                    <div class="card-title bolder">
+                        <a href="products.html">Intel Core i9-9900K Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo)</a>
+                    </div>
+                    <div class="card-text">
+                        Màn hình ROG Strix XG27VQ có kích thước 27 inch với độ cong 1800R, mở rộng tầm nhìn của bạn để bạn cảm thấy hoàn toàn chìm đắm trong trò chơi. Độ cong của màn hình đảm bảo mọi điểm đều cách mắt bạn bằng nhau, giúp bạn có trải nghiệm xem thoải mái, ngay cả trong những buổi chơi game kéo dài. Màn hình này cũng cho phép bạn tận hưởng góc nhìn rộng với độ méo và thay đổi màu sắc tối thiểu - giúp bạn có hình ảnh tốt hơn với các trò chơi, phim ảnh hoặc bất cứ thứ gì, từ gần như bất kỳ góc nhìn nào!
+                    </div>
+                    <form>
+                        <button type="button" class="btn btn-buy" onclick="addToCart('Intel Core i9-9900K', 48000000, './assets/img/hero-i9.jpg')">
+                        <i class="fas fa-shopping-cart pr-1" ></i>
+                        48,000,000đ Mua hàng
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                <div class="cardo d-md-flex">
+                    <img src="./assets/img/new-monitor.jpg" alt="">
+                    <div class="card-body pt-0">
+                    <div class="card-title bolder"><a href="products.html">ASUS TUF GAMING VG27WQ 27" WQHD 2560 x 1440 (2K) 1ms (MPRT) 165Hz (Max) HDMI, DisplayPort</a></div>
+                    <div class="card-text">
+                        Giống như phiên bản gốc của Cooler Master Cosmos, C700P là một con quái vật nặng nề với một mức giá tương tự. Tuy nhiên, chúng tôi cho rằng đây là đáng giá chi phí. Thiết kế thanh tay cầm đẹp mắt, tấm kính cong và màu sắc sáng bóng được phối hợp bởi các tính năng sẽ hỗ trợ thậm chí cả các thành phần cao cấp nhất (bao gồm cả bo mạch chủ E-ATX và GPU quá khổ).
+                    </div>
+                    <form>
+                        <button type="button" class="btn btn-buy" onclick="addToCart('ASUS TUF GAMING VG27WQ', 16000000, './assets/img/new-monitor.jpg')">
+                        <i class="fas fa-shopping-cart pr-1"></i>
+                        16,000,000đ Mua hàng
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                <div class="cardo d-md-flex">
+                    <img src="./assets/img/hero-ram.jpg" alt="">
+                    <div class="card-body pt-0">
+                    <div class="card-title bolder"><a href="products.html">CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 DRAM DDR4 3000 (PC4 24000)</a></div>
+                    <div class="card-text">
+                        Bộ nhớ RAM Dual Corsair Vengeance LPX 3200MHz DDR4 16GB (2 x 8GB) được thiết kế để tăng hiệu suất khi ép xung. Bộ tản nhiệt được làm bằng nhôm nguyên chất để tản nhiệt nhanh hơn và PCB tám lớp giúp quản lý nhiệt và cung cấp không gian ép xung tốt hơn.
+                    </div>
+                    <form>
+                        <button type="button" class="btn btn-price">15,000,000đ</button>
+                        <button type="button" class="btn btn-buy" onclick="addToCart('CORSAIR Vengeance RGB Pro 16GB', 15000000, './assets/img/hero-ram.jpg')">
+                        <i class="fas fa-shopping-cart pr-1"></i>
+                        Mua hàng
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                <div class="cardo d-md-flex">
+                    <img src="./assets/img/hero-thread.jpg" alt="">
+                    <div class="card-body pt-0">
+                    <div class="card-title bolder"><a href="products.html">AMD Ryzen Threadripper 3990X 64-Core 2.9 GHz Socket sTRX4 Desktop Processor</a></div>
+                    <div class="card-text">
+                        32 nhân cung cấp một sức mạnh xử lý đa nhiệm 64 luồng đồng thời đáng kinh ngạc, trong khi 144MB bộ nhớ cache kết hợp và I/O rộng lớn từ nền tảng AMD TRX40 cấp độ người dùng sành điệu hoạt động cùng nhau để đem lại hiệu suất đáng kinh ngạc.
+                
+                        32 nhân và 64 luồng cho công việc sáng tạo nhanh chóng.
+                        Tổng cộng 88 đường PCIe® 4.0 chưa từng có để đáp ứng nhu cầu lớn về GPU và NVMe.
+                        Lên đến 144MB bộ nhớ cache kết hợp giúp truy cập nhanh vào các tập dữ liệu lớn.
+                    </div>
+                    <form>
+                        <button type="button" class="btn btn-buy" onclick="addToCart('AMD Ryzen Threadripper 3990X', 17000000, './assets/img/hero-thread.jpg')">
+                        <i class="fas fa-shopping-cart pr-1"></i>
+                        17,000,000đ Mua hàng
+                        </button>
+                    </form>
+                    </div>
+                </div>
+                </div>
+                </div>  
+        </div>
+
+        <section class="sales">
+            <h2 class="sales-header header-ttl">
+                <i class="fas fa-cart-arrow-down"></i>
+                Today's Best Deals
+            </h2>
+        
+            <div class="cards d-md-flex flex-md-wrap">
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/sales-ram.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">G.SKILL TridentZ RGB Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel XMP 2.0</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('G.SKILL TridentZ RGB Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200', 1920000, 'assets/img/sales-ram.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('G.SKILL TridentZ RGB Series 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200', 1920000, 'assets/img/sales-ram.jpg')">
+                                1,920,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/sales-board.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">MSI MEG Z490 ACE LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('MSI MEG Z490 ACE LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard', 8400000, 'assets/img/sales-board.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('MSI MEG Z490 ACE LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard', 8400000, 'assets/img/sales-board.jpg')">
+                                8,400,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/sale-ssd.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">WD Blue 3D NAND 500GB Internal SSD - SATA III 6Gb/s 2.5"/7mm Solid State Drive</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('WD Blue 3D NAND 500GB Internal SSD - SATA III 6Gb/s 2.5/7mm Solid State Drive', 1320000, 'assets/img/sale-ssd.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('WD Blue 3D NAND 500GB Internal SSD - SATA III 6Gb/s 2.5/7mm Solid State Drive', 1320000, 'assets/img/sale-ssd.jpg')">
+                                1,320,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/sales-rtx.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">EVGA GeForce RTX 2070 SUPER BLACK GAMING, 08G-P4-3071-KR, 8GB GDDR6</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('EVGA GeForce RTX 2070 SUPER BLACK GAMING, 08G-P4-3071-KR, 8GB GDDR6', 11976000, 'assets/img/sales-rtx.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('EVGA GeForce RTX 2070 SUPER BLACK GAMING, 08G-P4-3071-KR, 8GB GDDR6', 11976000, 'assets/img/sales-rtx.jpg')">
+                                11,976,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="sales discount">
+            <h2 class="sales-header header-ttl">
+                <i class="fas fa-piggy-bank"></i>
+                Flash Discounts
+            </h2>
+        
+            <div class="cards d-md-flex flex-md-wrap">
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/rtx-flash.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">ASUS ROG Strix GeForce RTX2080TI-O11G-GAMING 11GB 352-Bit GDDR6 PCI Express 3.0</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('ASUS ROG Strix GeForce RTX2080TI-O11G-GAMING 11GB 352-Bit GDDR6 PCI Express 3.0', 23976000, 'assets/img/rtx-flash.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('ASUS ROG Strix GeForce RTX2080TI-O11G-GAMING 11GB 352-Bit GDDR6 PCI Express 3.0', 23976000, 'assets/img/rtx-flash.jpg')">
+                                23,976,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/supply-flash.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">EVGA SuperNOVA 650 G5, 80 Plus Gold 650W, Fully Modular, Eco Mode with FDB Fan, 10 Year Warranty</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('EVGA SuperNOVA 650 G5, 80 Plus Gold 650W, Fully Modular, Eco Mode with FDB Fan, 10 Year Warranty', 2400000, 'assets/img/supply-flash.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('EVGA SuperNOVA 650 G5, 80 Plus Gold 650W, Fully Modular, Eco Mode with FDB Fan, 10 Year Warranty', 2400000, 'assets/img/supply-flash.jpg')">
+                                2,400,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/air-flash.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Cooler Master MasterLiquid Lite ML240L RGB AIO CPU Liquid Cooler, Sleeved FEP Tubing, Dual 120mm RGB Air Balance</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Cooler Master MasterLiquid Lite ML240L RGB AIO CPU Liquid Cooler, Sleeved FEP Tubing, Dual 120mm RGB Air Balance', 2400000, 'assets/img/air-flash.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Cooler Master MasterLiquid Lite ML240L RGB AIO CPU Liquid Cooler, Sleeved FEP Tubing, Dual 120mm RGB Air Balance', 2400000, 'assets/img/air-flash.jpg')">
+                                2,400,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/case-flash.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Tempered Glass ATX Mid Tower High-Airflow Compact Clear Tempered Glass Computer Case</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Tempered Glass ATX Mid Tower High-Airflow Compact Clear Tempered Glass Computer Case', 1920000, 'assets/img/case-flash.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Tempered Glass ATX Mid Tower High-Airflow Compact Clear Tempered Glass Computer Case', 1920000, 'assets/img/case-flash.jpg')">
+                                1,920,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+        
+      
+
+        <section class="sales best-rate">
+            <h2 class="sales-header header-ttl">
+                <i class="fab fa-ello"></i>
+                Best Rating</h2>
+        
+            <div class="cards d-md-flex flex-md-wrap">
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/rated-ssd.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Sabrent 1TB Rocket NVMe PCIe M.2 2280 Internal SSD High Performance Solid
+                                State Drive (SB-ROCKET-1TB)</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Sabrent 1TB Rocket NVMe PCIe M.2 2280 Internal SSD High Performance Solid State Drive (SB-ROCKET-1TB)', 3336000, 'assets/img/rated-ssd.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Sabrent 1TB Rocket NVMe PCIe M.2 2280 Internal SSD High Performance Solid State Drive (SB-ROCKET-1TB)', 3336000, 'assets/img/rated-ssd.jpg')">
+                                3,336,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/rated-gtx.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">GIGABYTE Radeon RX 5600 XT WINDFORCE OC 6G Graphics Card, 2 x WINDFORCE Fans, 6GB 192-Bit GDDR6</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('GIGABYTE Radeon RX 5600 XT WINDFORCE OC 6G Graphics Card, 2 x WINDFORCE Fans, 6GB 192-Bit GDDR6', 6456000, 'assets/img/rated-gtx.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('GIGABYTE Radeon RX 5600 XT WINDFORCE OC 6G Graphics Card, 2 x WINDFORCE Fans, 6GB 192-Bit GDDR6', 6456000, 'assets/img/rated-gtx.jpg')">
+                                6,456,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/rated-head.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Audio-Technica ATH-M50x Professional Studio Monitor Headphones</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Audio-Technica ATH-M50x Professional Studio Monitor Headphones', 3120000, 'assets/img/rated-head.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Audio-Technica ATH-M50x Professional Studio Monitor Headphones', 3120000, 'assets/img/rated-head.jpg')">
+                                3,120,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/laptop.png" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Acer Nitro 5 Gaming Notebook, 15.6" FHD Display, Intel Core i5-9300H Upto 4.1GHz, 8GB RAM, 128GB NVMe SSD + 1TB HDD, GeForce GTX 1650</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Acer Nitro 5 Gaming Notebook, 15.6 FHD Display, Intel Core i5-9300H Upto 4.1GHz, 8GB RAM, 128GB NVMe SSD + 1TB HDD, GeForce GTX 1650', 11976000, 'assets/img/laptop.png')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Acer Nitro 5 Gaming Notebook, 15.6 FHD Display, Intel Core i5-9300H Upto 4.1GHz, 8GB RAM, 128GB NVMe SSD + 1TB HDD, GeForce GTX 1650', 11976000, 'assets/img/laptop.png')">
+                                11,976,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="sales best-sellers">
+            <h2 class="sales-header header-ttl">
+                <i class="fas fa-star"></i>
+                Best Sellers</h2>
+        
+            <div class="cards d-md-flex flex-md-wrap">
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/best-laptop.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">MSI GL75 Leopard 10SFK-029, 17.3" Gaming Laptop, Intel Core i7-10750H, RTX 2070, 16 GB Memory, 1 TB HDD + 512 GB SSD</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('MSI GL75 Leopard 10SFK-029, 17.3 Gaming Laptop, Intel Core i7-10750H, RTX 2070, 16 GB Memory, 1 TB HDD + 512 GB SSD', 26376000, 'assets/img/best-laptop.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('MSI GL75 Leopard 10SFK-029, 17.3 Gaming Laptop, Intel Core i7-10750H, RTX 2070, 16 GB Memory, 1 TB HDD + 512 GB SSD', 26376000, 'assets/img/best-laptop.jpg')">
+                                26,376,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/best-case.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Fractal Design Meshify C Black ATX High-Airflow Compact Dark Tint Tempered Glass Window Mid Tower Computer Case</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Fractal Design Meshify C Black ATX High-Airflow Compact Dark Tint Tempered Glass Window Mid Tower Computer Case', 1920000, 'assets/img/best-case.jpg')"></i>
+                            </span>
+                            <span class="card-price" nclick="addToCart('Fractal Design Meshify C Black ATX High-Airflow Compact Dark Tint Tempered Glass Window Mid Tower Computer Case', 1920000, 'assets/img/best-case.jpg')">
+                                1,920,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/best-monitor.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">Acer KG221Q Abmix 22" (Actual size 21.5") 1ms (GTG) AMD FreeSync Widescreen LCD/LED Gaming Monitor, HDMI 1920 x 1080, at 75 Hz</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('Acer KG221Q Abmix 22 (Actual size 21.5) 1ms (GTG) AMD FreeSync Widescreen LCD/LED Gaming Monitor, HDMI 1920 x 1080, at 75 Hz', 2376000, 'assets/img/best-monitor.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('Acer KG221Q Abmix 22 (Actual size 21.5) 1ms (GTG) AMD FreeSync Widescreen LCD/LED Gaming Monitor, HDMI 1920 x 1080, at 75 Hz', 2376000, 'assets/img/best-monitor.jpg')">
+                                2,376,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-1 p-3 mt-md-0 mx-md-0 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <img src="assets/img/best-ryzen.jpg" alt="">
+                        <div class="card-body">
+                            <a href="products.html">AMD RYZEN 5 3600 6-Core 3.6 GHz (4.2 GHz Max Boost) Socket AM4</a>
+                            <span class="d-block new">NEW</span>
+                            <span class="ship">
+                                <span class="from">from:</span>
+                                Ho Chi Minh City, VN
+                            </span>
+                        </div>
+                        <div class="add px-3 mb-3 d-flex justify-content-between align-items-center">
+                            <span class="add-sign">
+                                <i class="fas fa-plus" onclick="addToCart('AMD RYZEN 5 3600 6-Core 3.6 GHz (4.2 GHz Max Boost) Socket AM4', 3720000, 'assets/img/best-ryzen.jpg')"></i>
+                            </span>
+                            <span class="card-price" onclick="addToCart('AMD RYZEN 5 3600 6-Core 3.6 GHz (4.2 GHz Max Boost) Socket AM4', 3720000, 'assets/img/best-ryzen.jpg')">
+                                3,720,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-links d-flex flex-column flex-md-row flex-md-wrap align-items-md-center p-3">
+            <div class="about col-md-6 col-lg-3">
+                <div class="footer-logo d-flex align-items-center justify-content-center">
+                    <i class="fas fa-desktop mr-1"></i>
+                    <span class="text-logo text-capitalize">Go <br> On <br> Chill </span>
+                </div>
+            </div>
+        
+            <div class="categories col-md-6 order-md-1 col-lg-3 order-lg-0">
+                <h3 class="categories-title text-uppercase">Danh mục</h3>
+                <div class="lists-c d-flex">
+                    <ul class="categories-list mr-3">
+                        <li><a class="text-capitalize" href="#">Màn hình</a></li>
+                        <li><a class="text-capitalize" href="#">Laptops</a></li>
+                        <li><a class="text-capitalize" href="#">Gaming Laptops</a></li>
+                        <li><a class="text-capitalize" href="#">Phụ kiện máy tính</a></li>
+                        <li><a class="text-capitalize" href="#">Phụ kiện điện tử</a></li>
+                    </ul>
+        
+                    <ul class="categories-list">
+                        <li class="fas fa-map-marker-alt"><a class="text-capitalize" href="#">Lê Trọng Tấn, Tân phú, Hồ Chí Minh</a></li>
+                        <li class="fas fa-phone"><a class="text-capitalize" href="#">0923241676</a></li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+            <div class="categories navigation col-md-6 order-md-1 col-lg-3 order-lg-0">
+                <h3 class="navigation">Điều hướng</h3>
+                <ul class="navigation-list">
+                    <li><a class="text-capitalize" href="index.html">Trang chủ</a></li>
+                    <li><a class="text-capitalize" href="login.html">Đăng nhập</a></li>
+                    <li><a class="text-capitalize" href="sign-up.html">Đăng ký</a></li>
+                    <li><a class="text-capitalize" href="#">Điều khoản & Điều kiện</a></li>
+                    <li><a class="text-uppercase" href="#">Câu hỏi thường gặp</a></li>
+                    <li><a class="text-capitalize" href="#">Trợ giúp</a></li>
+                </ul>
+            </div>
+        
+            <div class="info d-flex justify-content-between col-md-6 col-lg-3">
+                <ul class="left-info">
+                    <li>Quốc gia</li>
+                    <li>Ngôn ngữ</li>
+                    <li>Tiền tệ</li>
+                </ul>
+                <ul class="right-info">
+                    <li>Việt Nam</li>
+                    <li>Tiếng Việt</li>
+                    <li>Việt Nam Đồng</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright d-flex flex-column justify-content-center px-3  flex-lg-row justify-content-lg-between">
+            <span class="text-center mb-0">Bản quyền © 2001210135 Nguyễn Tuấn Kiệt.</span>
+            <div class="social-media">
+                <ul class="d-flex ">
+                    <li><a href="https://mail.google.com/mail/?view=cm&to=nguyentuankiet060703%40gmail.com&su=H%E1%BB%97%20tr%E1%BB%A3"><i class="fab fa-google-plus-square" style="color: #db4a39;"></i></a></li>
+                    <li><a href="https://instagram.com/kiet.0607?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram" style="color: #e1306c;"></i></a></li>
+                    <li><a href="https://www.facebook.com/bekit06"><i class="fab fa-facebook-f" style="color: #1877f2;"></i></a></li>
+                  </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
